@@ -40,6 +40,32 @@ body{
 }
 .logo{
     display: flex;
-    height: 6vh;
+    height: 8vh;
     width: 8vw;
+    margin-left: -40px;
+
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: row;
+    padding: 20px 80px;
+    background: rgb(247, 246, 246)
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 18px; */
+    list-style: none;
+}
+#navbar li{
+    padding: 0px 20px;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color:1a,1a,1a;
 }
